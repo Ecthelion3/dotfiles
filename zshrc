@@ -82,5 +82,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias symlinks="env RCRC=$HOME/dotfiles/rcrc rcup"
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
