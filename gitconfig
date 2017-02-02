@@ -1,0 +1,13 @@
+[color]
+	ui = true
+[user]
+	name = Ecthelion3
+	email = matthijs.vandenberg@gmail.com
+[merge]
+  tool = opendiff
+  conflictstyle = diff3
+  prompt = false
+[mergetool]
+  keepBackup = false
+[difftool]
+  prompt = false
